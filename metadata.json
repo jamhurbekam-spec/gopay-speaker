@@ -1,0 +1,7 @@
+{
+  "name": "Sales GoPay Spiker",
+  "description": "Website pemasaran dan penjualan produk GoPay Spiker dengan panel admin mandiri, katalog produk, SEO teroptimasi, dan pemesanan WhatsApp.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+

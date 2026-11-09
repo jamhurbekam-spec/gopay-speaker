@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sales GoPay Spiker – Speaker Pembayaran Notifikasi QRIS</title>
+    <meta name="description" content="Website pemasaran dan penjualan produk GoPay Spiker dengan panel admin mandiri, katalog produk, SEO teroptimasi, dan pemesanan WhatsApp." />
+    <meta property="og:title" content="Sales GoPay Spiker – Speaker Pembayaran Notifikasi QRIS" />
+    <meta property="og:description" content="Website pemasaran dan penjualan produk GoPay Spiker dengan panel admin mandiri, katalog produk, SEO teroptimasi, dan pemesanan WhatsApp." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%2300AED6'%3E%3Cpath d='M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 14.5v-2.09c2.83-.48 5-2.94 5-5.91s-2.17-5.43-5-5.91V2.5l-6 5.5 6 5.5v-2.09c1.72.44 3 2 3 3.91s-1.28 3.47-3 3.91V16.5z'/%3E%3C/svg%3E" />
+    <script>
+      // Suppress Vite HMR WebSocket connection errors in AI Studio iframe environment
+      window.addEventListener('unhandledrejection', function (e) {
+        if (
+          e.reason &&
+          (e.reason.message?.includes('WebSocket') ||
+            e.reason.stack?.includes('createWebSocketModuleRunnerTransport') ||
+            e.reason.stack?.includes('@vite/client'))
+        ) {
+          e.preventDefault();
+          e.stopImmediatePropagation();
+        }
+      });
+      window.addEventListener('error', function (e) {
+        if (
+          e.message?.includes('WebSocket') ||
+          e.message?.includes('createWebSocketModuleRunnerTransport') ||
+          (typeof e.filename === 'string' && e.filename.includes('@vite/client'))
+        ) {
+          e.preventDefault();
+          e.stopImmediatePropagation();
+        }
+      });
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+

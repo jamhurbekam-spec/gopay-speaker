@@ -1,0 +1,57 @@
+{
+  "admin": null,
+  "identity": {
+    "storeName": "",
+    "ownerName": "",
+    "logoUrl": "",
+    "phone": "",
+    "whatsapp": "",
+    "email": "",
+    "address": "",
+    "province": "",
+    "city": "",
+    "postalCode": "",
+    "operatingHours": "",
+    "facebookUrl": "",
+    "instagramUrl": "",
+    "tiktokUrl": ""
+  },
+  "appearance": {
+    "primaryColor": "#00AED6",
+    "accentColor": "#00880C",
+    "heroBannerUrl": "",
+    "heroTitle": "",
+    "heroSubtitle": ""
+  },
+  "products": [],
+  "features": [],
+  "howToOrder": [],
+  "testimonials": [],
+  "faqs": [],
+  "articles": [],
+  "whatsappSettings": {
+    "whatsappNumber": "",
+    "orderMessageTemplate": "Halo, saya tertarik memesan produk *{produk}* dengan harga *{harga}* di {toko}. Mohon informasi ketersediaan dan cara pemesanannya.",
+    "floatingButtonEnabled": false,
+    "floatingButtonText": "Hubungi Penjual",
+    "floatingMessage": "Halo, saya ingin bertanya tentang produk GoPay Spiker.",
+    "productButtonEnabled": true
+  },
+  "seoSettings": {
+    "seoTitle": "",
+    "metaDescription": "",
+    "metaKeywords": "",
+    "googleSearchConsoleVerification": "",
+    "googleAnalyticsId": "",
+    "canonicalDomain": "",
+    "localSeoCity": "",
+    "localSeoProvince": ""
+  },
+  "siteSettings": {
+    "siteName": "Sales GoPay Spiker",
+    "siteDomain": "",
+    "adminEmail": "",
+    "timezone": "Asia/Jakarta",
+    "siteStatus": "active"
+  }
+}
