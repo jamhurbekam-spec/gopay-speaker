@@ -1,0 +1,3 @@
+/api/state          /api-state.json        200
+/api/admin/check    /api-admin-check.json  200
+/*                  /index.html            200
